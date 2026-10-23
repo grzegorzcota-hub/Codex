@@ -1,0 +1,949 @@
+{
+  "name": "Opieka medyczna",
+  "date": "2026-10-23T10:05:12.356Z",
+  "width": 1080,
+  "height": 1920,
+  "geometryVerified": true,
+  "officialMetaCurrentVerified": false,
+  "status": "ADAPTACJA — KONTROLA GEOMETRYCZNA, AKTUALNOŚĆ META NIEPOTWIERDZONA",
+  "safeProfile": {
+    "kind": "manual-screenshot-estimate",
+    "description": "Instagram Reels: ręczny profil roboczy na podstawie dwóch zrzutów użytkownika. Góra 190, pole do Y=1220, CTA od Y=1230; prawy pas dopiero od Y=1010. Nie jest to oficjalna specyfikacja Meta ani pomiar własnego renderu w aplikacji.",
+    "safe": {
+      "x": 120,
+      "y": 190,
+      "w": 840,
+      "h": 1030
+    },
+    "version": 2
+  },
+  "source": {
+    "background": "Tło edytowane z oryginalnej referencji; usunięto napisy. Zdjęcie i dekoracje mogły ulec zmianie w procesie edycji AI.",
+    "logo": "Wycinek oryginalnego logo z materiału użytkownika",
+    "typography": "Poppins, ponowny deterministyczny skład; nie deklarujemy identyczności z oryginalnym krojem."
+  },
+  "checks": [
+    {
+      "id": "bounds",
+      "status": "PASS",
+      "detail": "Całe granice każdego napisu i ikony z zapasem 8 px; osobna kontrola wszystkich umiejscowień."
+    },
+    {
+      "id": "collisions",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "id": "text-fit",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "id": "glyphs",
+      "status": "PASS",
+      "detail": "Glify Poppins; tekst wyłącznie programowy."
+    },
+    {
+      "id": "font-size",
+      "status": "PASS",
+      "detail": "Wszystkie napisy mają co najmniej 26 px."
+    },
+    {
+      "id": "official-current-meta",
+      "status": "UNVERIFIED",
+      "detail": "Wymaga weryfikacji aktualności. Nie udało się potwierdzić kompletnych oficjalnych parametrów. Dostępny jest projekt roboczy."
+    },
+    {
+      "id": "offer-approval",
+      "status": "PENDING",
+      "detail": "Cena, terminy i warunki pochodzą z materiałów użytkownika; brak nowego potwierdzenia aktualnej oferty."
+    },
+    {
+      "id": "orthography",
+      "status": "PASS",
+      "detail": "Słowa sprawdzone polskim słownikiem; kontrola nie ocenia prawdziwości oferty."
+    },
+    {
+      "id": "png",
+      "status": "PASS",
+      "detail": "Plik odczytany ponownie: 1080×1920, PNG."
+    },
+    {
+      "id": "contrast-pixels",
+      "status": "PASS",
+      "detail": [
+        {
+          "id": "headline-1",
+          "ratio": 14.22,
+          "threshold": 4.5,
+          "pixels": 8362,
+          "pass": true
+        },
+        {
+          "id": "headline-2a",
+          "ratio": 14.23,
+          "threshold": 4.5,
+          "pixels": 6211,
+          "pass": true
+        },
+        {
+          "id": "headline-2b",
+          "ratio": 14.23,
+          "threshold": 4.5,
+          "pixels": 8950,
+          "pass": true
+        },
+        {
+          "id": "headline-3",
+          "ratio": 5.07,
+          "threshold": 4.5,
+          "pixels": 6729,
+          "pass": true
+        },
+        {
+          "id": "subtitle",
+          "ratio": 6.14,
+          "threshold": 4.5,
+          "pixels": 3711,
+          "pass": true
+        },
+        {
+          "id": "price-prefix",
+          "ratio": 7.53,
+          "threshold": 4.5,
+          "pixels": 1100,
+          "pass": true
+        },
+        {
+          "id": "price",
+          "ratio": 7.33,
+          "threshold": 4.5,
+          "pixels": 5807,
+          "pass": true
+        },
+        {
+          "id": "price-unit",
+          "ratio": 6.19,
+          "threshold": 4.5,
+          "pixels": 753,
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-0",
+          "ratio": 14.62,
+          "threshold": 4.5,
+          "pixels": 637,
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-1",
+          "ratio": 14.62,
+          "threshold": 4.5,
+          "pixels": 684,
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-2",
+          "ratio": 5.23,
+          "threshold": 4.5,
+          "pixels": 890,
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-0",
+          "ratio": 14.49,
+          "threshold": 4.5,
+          "pixels": 830,
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-1",
+          "ratio": 5.18,
+          "threshold": 4.5,
+          "pixels": 892,
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-0",
+          "ratio": 13.98,
+          "threshold": 4.5,
+          "pixels": 864,
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-1",
+          "ratio": 14.07,
+          "threshold": 4.5,
+          "pixels": 300,
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-2",
+          "ratio": 4.97,
+          "threshold": 4.5,
+          "pixels": 1642,
+          "pass": true
+        },
+        {
+          "id": "website",
+          "ratio": 14.49,
+          "threshold": 4.5,
+          "pixels": 1499,
+          "pass": true
+        },
+        {
+          "id": "legal",
+          "ratio": 6.32,
+          "threshold": 4.5,
+          "pixels": 1659,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "screenshot-ui-simulation",
+      "status": "PASS",
+      "detail": "Brak przecięć z przybliżonym CTA, kolumną ikon, statusem, kontem i podpisem w modelu zrzutu. Nie potwierdza rzeczywistego renderu Instagram."
+    }
+  ],
+  "profileChecks": [
+    {
+      "placement": "Instagram Reels — ręczna kalibracja zrzutów użytkownika",
+      "safe": {
+        "x": 120,
+        "y": 190,
+        "w": 840,
+        "h": 1030
+      },
+      "blocked": [
+        {
+          "x": 880,
+          "y": 1010,
+          "w": 200,
+          "h": 650
+        },
+        {
+          "x": 0,
+          "y": 1230,
+          "w": 1080,
+          "h": 690
+        }
+      ],
+      "objects": [
+        {
+          "id": "headline-1",
+          "pass": true
+        },
+        {
+          "id": "headline-2a",
+          "pass": true
+        },
+        {
+          "id": "headline-2b",
+          "pass": true
+        },
+        {
+          "id": "headline-3",
+          "pass": true
+        },
+        {
+          "id": "subtitle",
+          "pass": true
+        },
+        {
+          "id": "price-icon",
+          "pass": true
+        },
+        {
+          "id": "price-prefix",
+          "pass": true
+        },
+        {
+          "id": "price",
+          "pass": true
+        },
+        {
+          "id": "price-unit",
+          "pass": true
+        },
+        {
+          "id": "benefit-icon-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-2",
+          "pass": true
+        },
+        {
+          "id": "benefit-icon-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-icon-2",
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-2",
+          "pass": true
+        },
+        {
+          "id": "website-icon",
+          "pass": true
+        },
+        {
+          "id": "website",
+          "pass": true
+        },
+        {
+          "id": "legal",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "logo",
+      "kind": "logo",
+      "important": false,
+      "x": 140,
+      "y": 105,
+      "w": 280,
+      "h": 94.38202247191012
+    },
+    {
+      "id": "headline-1",
+      "kind": "text",
+      "important": true,
+      "x": 143.808,
+      "y": 255.06,
+      "w": 338.5040000000001,
+      "h": 66.096,
+      "text": "Prywatna",
+      "fontSize": 68,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "headline-2a",
+      "kind": "text",
+      "important": true,
+      "x": 141.632,
+      "y": 332.58,
+      "w": 237.11600000000004,
+      "h": 73.644,
+      "text": "opieka",
+      "fontSize": 68,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "headline-2b",
+      "kind": "text",
+      "important": true,
+      "x": 143.808,
+      "y": 422.68,
+      "w": 366.2480000000001,
+      "h": 68.476,
+      "text": "medyczna",
+      "fontSize": 68,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "headline-3",
+      "kind": "text",
+      "important": true,
+      "x": 141.632,
+      "y": 502.58,
+      "w": 270.57200000000006,
+      "h": 55.896000000000015,
+      "text": "dla firm",
+      "fontSize": 68,
+      "color": "#007b64",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "subtitle",
+      "kind": "text",
+      "important": true,
+      "x": 141.462,
+      "y": 588.84,
+      "w": 436.1179999999998,
+      "h": 77.33999999999992,
+      "text": "Szybszy dostęp do lekarzy\ndla Twojego zespołu",
+      "fontSize": 34,
+      "color": "#476274",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "price-icon",
+      "kind": "icon",
+      "important": true,
+      "x": 176,
+      "y": 722,
+      "w": 76,
+      "h": 76
+    },
+    {
+      "id": "price-prefix",
+      "kind": "text",
+      "important": true,
+      "x": 439.81199999999995,
+      "y": 705.344,
+      "w": 155.2499999999999,
+      "h": 31.379999999999995,
+      "text": "Pakiety od",
+      "fontSize": 30,
+      "color": "#ffffff",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "price",
+      "kind": "text",
+      "important": true,
+      "x": 441.03999999999996,
+      "y": 750.61,
+      "w": 180.974,
+      "h": 61.66399999999999,
+      "text": "59 zł",
+      "fontSize": 82,
+      "color": "#ffffff",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "price-unit",
+      "kind": "text",
+      "important": true,
+      "x": 637.8999999999999,
+      "y": 778.5600000000001,
+      "w": 124.28800000000012,
+      "h": 36.096000000000004,
+      "text": "/ mies.*",
+      "fontSize": 32,
+      "color": "#ffffff",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-icon-0",
+      "kind": "icon",
+      "important": true,
+      "x": 219.2,
+      "y": 875,
+      "w": 81.6,
+      "h": 81.6
+    },
+    {
+      "id": "benefit-0-line-0",
+      "kind": "text",
+      "important": true,
+      "x": 187.408,
+      "y": 974.248,
+      "w": 145.18400000000005,
+      "h": 24.639999999999986,
+      "text": "Internista",
+      "fontSize": 32,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-0-line-1",
+      "kind": "text",
+      "important": true,
+      "x": 184.864,
+      "y": 1012.2479999999999,
+      "w": 149.79200000000006,
+      "h": 32.67199999999991,
+      "text": "i pediatra",
+      "fontSize": 32,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-0-line-2",
+      "kind": "text",
+      "important": true,
+      "x": 197.328,
+      "y": 1049.512,
+      "w": 124.73600000000002,
+      "h": 25.375999999999976,
+      "text": "do 2 dni",
+      "fontSize": 32,
+      "color": "#007b64",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-icon-1",
+      "kind": "icon",
+      "important": true,
+      "x": 469.2,
+      "y": 875,
+      "w": 81.6,
+      "h": 81.6
+    },
+    {
+      "id": "benefit-1-line-0",
+      "kind": "text",
+      "important": true,
+      "x": 424.336,
+      "y": 974.248,
+      "w": 170.68799999999976,
+      "h": 32.672000000000025,
+      "text": "Specjalista",
+      "fontSize": 32,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-1-line-1",
+      "kind": "text",
+      "important": true,
+      "x": 446.20799999999997,
+      "y": 1011.512,
+      "w": 126.976,
+      "h": 25.375999999999976,
+      "text": "do 5 dni",
+      "fontSize": 32,
+      "color": "#007b64",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-icon-2",
+      "kind": "icon",
+      "important": true,
+      "x": 719.2,
+      "y": 875,
+      "w": 81.6,
+      "h": 81.6
+    },
+    {
+      "id": "benefit-2-line-0",
+      "kind": "text",
+      "important": true,
+      "x": 664.2560000000001,
+      "y": 974.248,
+      "w": 191.48799999999972,
+      "h": 30.94399999999996,
+      "text": "Rozwiązania",
+      "fontSize": 32,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-2-line-1",
+      "kind": "text",
+      "important": true,
+      "x": 726,
+      "y": 1012.92,
+      "w": 67.48799999999994,
+      "h": 23.96799999999996,
+      "text": "od 5",
+      "fontSize": 32,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-2-line-2",
+      "kind": "text",
+      "important": true,
+      "x": 652.624,
+      "y": 1048.3919999999998,
+      "w": 216.73600000000022,
+      "h": 34.656000000000176,
+      "text": "pracowników",
+      "fontSize": 32,
+      "color": "#007b64",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "website-icon",
+      "kind": "icon",
+      "important": true,
+      "x": 140,
+      "y": 1103,
+      "w": 31,
+      "h": 31
+    },
+    {
+      "id": "website",
+      "kind": "text",
+      "important": true,
+      "x": 187.064,
+      "y": 1106.048,
+      "w": 227.3879999999999,
+      "h": 29.34400000000005,
+      "text": "zespolzyskuje.pl",
+      "fontSize": 28,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "legal",
+      "kind": "text",
+      "important": true,
+      "x": 141.586,
+      "y": 1155.486,
+      "w": 564.5120000000002,
+      "h": 27.533999999999878,
+      "text": "*Cena zależy od zakresu i liczebności grupy.",
+      "fontSize": 26,
+      "color": "#476274",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    }
+  ],
+  "officialSources": [
+    {
+      "url": "https://www.facebook.com/business/ads-guide/image/facebook-feed",
+      "checkedAt": "2026-10-23T08:40:33.787Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "971b4dfab55ad865cbf39f4e9fbdc2df202281bd79d25d4b165d266689977b42",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": "Review ad specifications for ads on Threads and start connecting your campaigns with an active, growing community. Learn moreMeta Ads Guide Find the latest Meta ad specifications, formats and placement best practices. AboutVideoCarouselCollectionImageImageAboutVideoCarouselCollec"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads-guide/image/instagram-feed",
+      "checkedAt": "2026-10-23T08:40:33.787Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "f46302a47785d095b45034f0acaa41cd27cb8c29dd2942c3f11adbd84eac8347",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": "Review ad specifications for ads on Threads and start connecting your campaigns with an active, growing community. Learn moreMeta Ads Guide Find the latest Meta ad specifications, formats and placement best practices. AboutVideoCarouselCollectionImageImageAboutVideoCarouselCollec"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/stories-ads",
+      "checkedAt": "2026-10-23T08:40:33.787Z",
+      "status": "error",
+      "httpStatus": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/stories-ads",
+      "checkedAt": "2026-10-23T08:40:33.787Z",
+      "status": "error",
+      "httpStatus": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/facebook-instagram-reels-ads",
+      "checkedAt": "2026-10-23T08:40:33.787Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "b2558e756a11ec95f016bd89d840befe15b193b97e19ad6ca91ebbe3b0b006d2",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": " "
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/facebook-instagram-reels-ads",
+      "checkedAt": "2026-10-23T08:40:33.787Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "b2558e756a11ec95f016bd89d840befe15b193b97e19ad6ca91ebbe3b0b006d2",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": " "
+    }
+  ],
+  "sha256": "0f526a600553a50a1f7c27e3b5f05e43c995e0a58138f3e0f521ee53e46965f1",
+  "manualScreenshotCalibration": {
+    "version": 2,
+    "assumption": {
+      "mode": "cover",
+      "scale": 0.8,
+      "cropX": 77,
+      "cropY": 0
+    },
+    "officialVerification": false,
+    "objects": [
+      {
+        "id": "headline-1",
+        "screen": {
+          "x": 38.046400000000006,
+          "y": 204.048,
+          "w": 270.80320000000006,
+          "h": 52.8768
+        },
+        "intersections": []
+      },
+      {
+        "id": "headline-2a",
+        "screen": {
+          "x": 36.30560000000001,
+          "y": 266.064,
+          "w": 189.69280000000003,
+          "h": 58.915200000000006
+        },
+        "intersections": []
+      },
+      {
+        "id": "headline-2b",
+        "screen": {
+          "x": 38.046400000000006,
+          "y": 338.144,
+          "w": 292.9984000000001,
+          "h": 54.7808
+        },
+        "intersections": []
+      },
+      {
+        "id": "headline-3",
+        "screen": {
+          "x": 36.30560000000001,
+          "y": 402.064,
+          "w": 216.45760000000007,
+          "h": 44.71680000000001
+        },
+        "intersections": []
+      },
+      {
+        "id": "subtitle",
+        "screen": {
+          "x": 36.1696,
+          "y": 471.07200000000006,
+          "w": 348.8943999999999,
+          "h": 61.871999999999936
+        },
+        "intersections": []
+      },
+      {
+        "id": "price-icon",
+        "screen": {
+          "x": 63.80000000000001,
+          "y": 577.6,
+          "w": 60.800000000000004,
+          "h": 60.800000000000004
+        },
+        "intersections": []
+      },
+      {
+        "id": "price-prefix",
+        "screen": {
+          "x": 274.8496,
+          "y": 564.2752,
+          "w": 124.19999999999992,
+          "h": 25.104
+        },
+        "intersections": []
+      },
+      {
+        "id": "price",
+        "screen": {
+          "x": 275.832,
+          "y": 600.488,
+          "w": 144.7792,
+          "h": 49.331199999999995
+        },
+        "intersections": []
+      },
+      {
+        "id": "price-unit",
+        "screen": {
+          "x": 433.31999999999994,
+          "y": 622.8480000000001,
+          "w": 99.4304000000001,
+          "h": 28.876800000000003
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-icon-0",
+        "screen": {
+          "x": 98.36000000000001,
+          "y": 700,
+          "w": 65.28,
+          "h": 65.28
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-0-line-0",
+        "screen": {
+          "x": 72.9264,
+          "y": 779.3984,
+          "w": 116.14720000000005,
+          "h": 19.71199999999999
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-0-line-1",
+        "screen": {
+          "x": 70.8912,
+          "y": 809.7984,
+          "w": 119.83360000000005,
+          "h": 26.13759999999993
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-0-line-2",
+        "screen": {
+          "x": 80.86240000000001,
+          "y": 839.6096,
+          "w": 99.78880000000002,
+          "h": 20.30079999999998
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-icon-1",
+        "screen": {
+          "x": 298.36,
+          "y": 700,
+          "w": 65.28,
+          "h": 65.28
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-1-line-0",
+        "screen": {
+          "x": 262.46880000000004,
+          "y": 779.3984,
+          "w": 136.55039999999983,
+          "h": 26.13760000000002
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-1-line-1",
+        "screen": {
+          "x": 279.9664,
+          "y": 809.2096,
+          "w": 101.58080000000001,
+          "h": 20.30079999999998
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-icon-2",
+        "screen": {
+          "x": 498.36,
+          "y": 700,
+          "w": 65.28,
+          "h": 65.28
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-2-line-0",
+        "screen": {
+          "x": 454.40480000000014,
+          "y": 779.3984,
+          "w": 153.19039999999978,
+          "h": 24.75519999999997
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-2-line-1",
+        "screen": {
+          "x": 503.80000000000007,
+          "y": 810.336,
+          "w": 53.99039999999996,
+          "h": 19.17439999999997
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-2-line-2",
+        "screen": {
+          "x": 445.0992,
+          "y": 838.7135999999999,
+          "w": 173.38880000000017,
+          "h": 27.724800000000144
+        },
+        "intersections": []
+      },
+      {
+        "id": "website-icon",
+        "screen": {
+          "x": 35,
+          "y": 882.4000000000001,
+          "w": 24.8,
+          "h": 24.8
+        },
+        "intersections": []
+      },
+      {
+        "id": "website",
+        "screen": {
+          "x": 72.65119999999999,
+          "y": 884.8384000000001,
+          "w": 181.91039999999992,
+          "h": 23.475200000000044
+        },
+        "intersections": []
+      },
+      {
+        "id": "legal",
+        "screen": {
+          "x": 36.26880000000001,
+          "y": 924.3888000000002,
+          "w": 451.60960000000017,
+          "h": 22.027199999999905
+        },
+        "intersections": []
+      }
+    ]
+  }
+}

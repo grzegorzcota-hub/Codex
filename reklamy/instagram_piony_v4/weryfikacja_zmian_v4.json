@@ -1,0 +1,16 @@
+{
+  "01": {
+    "benefitIconScale": 1.2,
+    "headlineSubtitleGapIncrease": 10,
+    "subtitlePanelGapIncrease": 10,
+    "priceGroupCentered": true
+  },
+  "02": {
+    "benefitIconScale": 1.2,
+    "gapAboveBenefits": 87.56000000000006
+  },
+  "03": {
+    "benefitIconScale": 1.2,
+    "gapAboveBenefits": 25.0
+  }
+}
