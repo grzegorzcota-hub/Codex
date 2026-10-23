@@ -1,0 +1,900 @@
+{
+  "name": "Ubezpieczenia grupowe",
+  "date": "2026-10-23T09:44:19.280Z",
+  "width": 1080,
+  "height": 1920,
+  "geometryVerified": true,
+  "officialMetaCurrentVerified": false,
+  "status": "ADAPTACJA — KONTROLA GEOMETRYCZNA, AKTUALNOŚĆ META NIEPOTWIERDZONA",
+  "safeProfile": {
+    "kind": "manual-screenshot-estimate",
+    "description": "Instagram Reels: ręczny profil roboczy na podstawie dwóch zrzutów użytkownika. Góra 190, pole do Y=1220, CTA od Y=1230; prawy pas dopiero od Y=1010. Nie jest to oficjalna specyfikacja Meta ani pomiar własnego renderu w aplikacji.",
+    "safe": {
+      "x": 120,
+      "y": 190,
+      "w": 840,
+      "h": 1030
+    },
+    "version": 2
+  },
+  "source": {
+    "background": "Tło edytowane z oryginalnej referencji; usunięto napisy. Zdjęcie i dekoracje mogły ulec zmianie w procesie edycji AI.",
+    "logo": "Wycinek oryginalnego logo z materiału użytkownika",
+    "typography": "Poppins, ponowny deterministyczny skład; nie deklarujemy identyczności z oryginalnym krojem."
+  },
+  "checks": [
+    {
+      "id": "bounds",
+      "status": "PASS",
+      "detail": "Całe granice każdego napisu i ikony z zapasem 8 px; osobna kontrola wszystkich umiejscowień."
+    },
+    {
+      "id": "collisions",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "id": "text-fit",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "id": "glyphs",
+      "status": "PASS",
+      "detail": "Glify Poppins; tekst wyłącznie programowy."
+    },
+    {
+      "id": "font-size",
+      "status": "PASS",
+      "detail": "Wszystkie napisy mają co najmniej 26 px."
+    },
+    {
+      "id": "official-current-meta",
+      "status": "UNVERIFIED",
+      "detail": "Wymaga weryfikacji aktualności. Nie udało się potwierdzić kompletnych oficjalnych parametrów. Dostępny jest projekt roboczy."
+    },
+    {
+      "id": "offer-approval",
+      "status": "PENDING",
+      "detail": "Cena, terminy i warunki pochodzą z materiałów użytkownika; brak nowego potwierdzenia aktualnej oferty."
+    },
+    {
+      "id": "orthography",
+      "status": "PASS",
+      "detail": "Słowa sprawdzone polskim słownikiem; kontrola nie ocenia prawdziwości oferty."
+    },
+    {
+      "id": "png",
+      "status": "PASS",
+      "detail": "Plik odczytany ponownie: 1080×1920, PNG."
+    },
+    {
+      "id": "contrast-pixels",
+      "status": "PASS",
+      "detail": [
+        {
+          "id": "headline-1",
+          "ratio": 10.14,
+          "threshold": 4.5,
+          "pixels": 14286,
+          "pass": true
+        },
+        {
+          "id": "headline-2",
+          "ratio": 5.17,
+          "threshold": 4.5,
+          "pixels": 9006,
+          "pass": true
+        },
+        {
+          "id": "headline-3",
+          "ratio": 5.17,
+          "threshold": 4.5,
+          "pixels": 7600,
+          "pass": true
+        },
+        {
+          "id": "subtitle",
+          "ratio": 5.42,
+          "threshold": 4.5,
+          "pixels": 3713,
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-0",
+          "ratio": 14.62,
+          "threshold": 4.5,
+          "pixels": 593,
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-1",
+          "ratio": 14.62,
+          "threshold": 4.5,
+          "pixels": 942,
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-2",
+          "ratio": 14.62,
+          "threshold": 4.5,
+          "pixels": 811,
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-0",
+          "ratio": 14.49,
+          "threshold": 4.5,
+          "pixels": 834,
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-1",
+          "ratio": 14.62,
+          "threshold": 4.5,
+          "pixels": 552,
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-2",
+          "ratio": 14.49,
+          "threshold": 4.5,
+          "pixels": 843,
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-0",
+          "ratio": 13.74,
+          "threshold": 4.5,
+          "pixels": 1061,
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-1",
+          "ratio": 13.88,
+          "threshold": 4.5,
+          "pixels": 953,
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-2",
+          "ratio": 14,
+          "threshold": 4.5,
+          "pixels": 551,
+          "pass": true
+        },
+        {
+          "id": "small-company",
+          "ratio": 6.37,
+          "threshold": 4.5,
+          "pixels": 2509,
+          "pass": true
+        },
+        {
+          "id": "website",
+          "ratio": 14.49,
+          "threshold": 4.5,
+          "pixels": 1499,
+          "pass": true
+        },
+        {
+          "id": "cta",
+          "ratio": 5.18,
+          "threshold": 4.5,
+          "pixels": 2061,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "screenshot-ui-simulation",
+      "status": "PASS",
+      "detail": "Brak przecięć z przybliżonym CTA, kolumną ikon, statusem, kontem i podpisem w modelu zrzutu. Nie potwierdza rzeczywistego renderu Instagram."
+    }
+  ],
+  "profileChecks": [
+    {
+      "placement": "Instagram Reels — ręczna kalibracja zrzutów użytkownika",
+      "safe": {
+        "x": 120,
+        "y": 190,
+        "w": 840,
+        "h": 1030
+      },
+      "blocked": [
+        {
+          "x": 880,
+          "y": 1010,
+          "w": 200,
+          "h": 650
+        },
+        {
+          "x": 0,
+          "y": 1230,
+          "w": 1080,
+          "h": 690
+        }
+      ],
+      "objects": [
+        {
+          "id": "headline-1",
+          "pass": true
+        },
+        {
+          "id": "headline-2",
+          "pass": true
+        },
+        {
+          "id": "headline-3",
+          "pass": true
+        },
+        {
+          "id": "subtitle",
+          "pass": true
+        },
+        {
+          "id": "benefit-icon-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-2",
+          "pass": true
+        },
+        {
+          "id": "benefit-icon-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-2",
+          "pass": true
+        },
+        {
+          "id": "benefit-icon-2",
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-2",
+          "pass": true
+        },
+        {
+          "id": "small-company-icon",
+          "pass": true
+        },
+        {
+          "id": "small-company",
+          "pass": true
+        },
+        {
+          "id": "website-icon",
+          "pass": true
+        },
+        {
+          "id": "website",
+          "pass": true
+        },
+        {
+          "id": "cta",
+          "pass": true
+        },
+        {
+          "id": "cta-arrow",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "logo",
+      "kind": "logo",
+      "important": false,
+      "x": 140,
+      "y": 105,
+      "w": 280,
+      "h": 94.38202247191012
+    },
+    {
+      "id": "headline-1",
+      "kind": "text",
+      "important": true,
+      "x": 143.816,
+      "y": 248.32,
+      "w": 533.8080000000001,
+      "h": 77.976,
+      "text": "Ubezpieczenia",
+      "fontSize": 72,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "headline-2",
+      "kind": "text",
+      "important": true,
+      "x": 141.728,
+      "y": 351.104,
+      "w": 329.90400000000005,
+      "h": 60.76800000000003,
+      "text": "grupowe",
+      "fontSize": 72,
+      "color": "#007b64",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "headline-3",
+      "kind": "text",
+      "important": true,
+      "x": 141.728,
+      "y": 418.32,
+      "w": 286.488,
+      "h": 59.184000000000026,
+      "text": "dla firm",
+      "fontSize": 72,
+      "color": "#007b64",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "subtitle",
+      "kind": "text",
+      "important": true,
+      "x": 140.408,
+      "y": 543.024,
+      "w": 452.1999999999998,
+      "h": 77.81600000000003,
+      "text": "Prosty benefit, realne\nwsparcie dla pracowników",
+      "fontSize": 34,
+      "color": "#476274",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-icon-0",
+      "kind": "icon",
+      "important": true,
+      "x": 222,
+      "y": 750,
+      "w": 76,
+      "h": 76
+    },
+    {
+      "id": "benefit-0-line-0",
+      "kind": "text",
+      "important": true,
+      "x": 191.584,
+      "y": 852.32,
+      "w": 135.74400000000003,
+      "h": 23.96799999999996,
+      "text": "Ochrona",
+      "fontSize": 32,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-0-line-1",
+      "kind": "text",
+      "important": true,
+      "x": 156.01600000000002,
+      "y": 890.752,
+      "w": 210.01600000000008,
+      "h": 33.5680000000001,
+      "text": "pracowników",
+      "fontSize": 32,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-0-line-2",
+      "kind": "text",
+      "important": true,
+      "x": 166.448,
+      "y": 931.648,
+      "w": 186.78400000000002,
+      "h": 24.639999999999986,
+      "text": "i ich bliskich",
+      "fontSize": 32,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-icon-1",
+      "kind": "icon",
+      "important": true,
+      "x": 472,
+      "y": 750,
+      "w": 76,
+      "h": 76
+    },
+    {
+      "id": "benefit-1-line-0",
+      "kind": "text",
+      "important": true,
+      "x": 422.848,
+      "y": 852.32,
+      "w": 176.3200000000001,
+      "h": 31.935999999999922,
+      "text": "Dodatkowy",
+      "fontSize": 32,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-1-line-1",
+      "kind": "text",
+      "important": true,
+      "x": 456.544,
+      "y": 891.552,
+      "w": 108.31999999999994,
+      "h": 24.73599999999999,
+      "text": "benefit",
+      "fontSize": 32,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-1-line-2",
+      "kind": "text",
+      "important": true,
+      "x": 420.67199999999997,
+      "y": 932.32,
+      "w": 177.56799999999993,
+      "h": 32,
+      "text": "dla zespołu",
+      "fontSize": 32,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-icon-2",
+      "kind": "icon",
+      "important": true,
+      "x": 722,
+      "y": 750,
+      "w": 76,
+      "h": 76
+    },
+    {
+      "id": "benefit-2-line-0",
+      "kind": "text",
+      "important": true,
+      "x": 641.056,
+      "y": 850.752,
+      "w": 239.90399999999988,
+      "h": 33.50400000000002,
+      "text": "Różne warianty",
+      "fontSize": 32,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-2-line-1",
+      "kind": "text",
+      "important": true,
+      "x": 656,
+      "y": 892.32,
+      "w": 207.99999999999977,
+      "h": 32,
+      "text": "dopasowane",
+      "fontSize": 32,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-2-line-2",
+      "kind": "text",
+      "important": true,
+      "x": 695.3919999999999,
+      "y": 931.552,
+      "w": 130.144,
+      "h": 32.70399999999995,
+      "text": "do firmy",
+      "fontSize": 32,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "small-company-icon",
+      "kind": "icon",
+      "important": true,
+      "x": 140,
+      "y": 1020,
+      "w": 34,
+      "h": 34
+    },
+    {
+      "id": "small-company",
+      "kind": "text",
+      "important": true,
+      "x": 191.96,
+      "y": 1025.48,
+      "w": 391.3199999999998,
+      "h": 31.440000000000055,
+      "text": "Także dla mniejszych firm",
+      "fontSize": 30,
+      "color": "#476274",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "website-icon",
+      "kind": "icon",
+      "important": true,
+      "x": 140,
+      "y": 1103,
+      "w": 31,
+      "h": 31
+    },
+    {
+      "id": "website",
+      "kind": "text",
+      "important": true,
+      "x": 187.064,
+      "y": 1106.048,
+      "w": 227.3879999999999,
+      "h": 29.34400000000005,
+      "text": "zespolzyskuje.pl",
+      "fontSize": 28,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "cta",
+      "kind": "text",
+      "important": true,
+      "x": 142.139,
+      "y": 1175.611,
+      "w": 292.888,
+      "h": 33.572999999999865,
+      "text": "Porównaj warianty",
+      "fontSize": 31,
+      "color": "#007b64",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "cta-arrow",
+      "kind": "icon",
+      "important": true,
+      "x": 470,
+      "y": 1172,
+      "w": 33,
+      "h": 33
+    }
+  ],
+  "officialSources": [
+    {
+      "url": "https://www.facebook.com/business/ads-guide/image/facebook-feed",
+      "checkedAt": "2026-10-23T08:40:33.787Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "971b4dfab55ad865cbf39f4e9fbdc2df202281bd79d25d4b165d266689977b42",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": "Review ad specifications for ads on Threads and start connecting your campaigns with an active, growing community. Learn moreMeta Ads Guide Find the latest Meta ad specifications, formats and placement best practices. AboutVideoCarouselCollectionImageImageAboutVideoCarouselCollec"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads-guide/image/instagram-feed",
+      "checkedAt": "2026-10-23T08:40:33.787Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "f46302a47785d095b45034f0acaa41cd27cb8c29dd2942c3f11adbd84eac8347",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": "Review ad specifications for ads on Threads and start connecting your campaigns with an active, growing community. Learn moreMeta Ads Guide Find the latest Meta ad specifications, formats and placement best practices. AboutVideoCarouselCollectionImageImageAboutVideoCarouselCollec"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/stories-ads",
+      "checkedAt": "2026-10-23T08:40:33.787Z",
+      "status": "error",
+      "httpStatus": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/stories-ads",
+      "checkedAt": "2026-10-23T08:40:33.787Z",
+      "status": "error",
+      "httpStatus": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/facebook-instagram-reels-ads",
+      "checkedAt": "2026-10-23T08:40:33.787Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "b2558e756a11ec95f016bd89d840befe15b193b97e19ad6ca91ebbe3b0b006d2",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": " "
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/facebook-instagram-reels-ads",
+      "checkedAt": "2026-10-23T08:40:33.787Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "b2558e756a11ec95f016bd89d840befe15b193b97e19ad6ca91ebbe3b0b006d2",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": " "
+    }
+  ],
+  "sha256": "702a637b2f9d00b9e08ca927a813284a0fa4c082ba8e522d4c7a1ee26c26433a",
+  "manualScreenshotCalibration": {
+    "version": 2,
+    "assumption": {
+      "mode": "cover",
+      "scale": 0.8,
+      "cropX": 77,
+      "cropY": 0
+    },
+    "officialVerification": false,
+    "objects": [
+      {
+        "id": "headline-1",
+        "screen": {
+          "x": 38.052800000000005,
+          "y": 198.656,
+          "w": 427.0464000000001,
+          "h": 62.3808
+        },
+        "intersections": []
+      },
+      {
+        "id": "headline-2",
+        "screen": {
+          "x": 36.38240000000002,
+          "y": 280.8832,
+          "w": 263.92320000000007,
+          "h": 48.614400000000025
+        },
+        "intersections": []
+      },
+      {
+        "id": "headline-3",
+        "screen": {
+          "x": 36.38240000000002,
+          "y": 334.656,
+          "w": 229.1904,
+          "h": 47.34720000000002
+        },
+        "intersections": []
+      },
+      {
+        "id": "subtitle",
+        "screen": {
+          "x": 35.32639999999999,
+          "y": 434.41920000000005,
+          "w": 361.7599999999999,
+          "h": 62.25280000000003
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-icon-0",
+        "screen": {
+          "x": 100.60000000000002,
+          "y": 600,
+          "w": 60.800000000000004,
+          "h": 60.800000000000004
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-0-line-0",
+        "screen": {
+          "x": 76.2672,
+          "y": 681.8560000000001,
+          "w": 108.59520000000003,
+          "h": 19.17439999999997
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-0-line-1",
+        "screen": {
+          "x": 47.812800000000024,
+          "y": 712.6016,
+          "w": 168.01280000000008,
+          "h": 26.85440000000008
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-0-line-2",
+        "screen": {
+          "x": 56.1584,
+          "y": 745.3184000000001,
+          "w": 149.42720000000003,
+          "h": 19.71199999999999
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-icon-1",
+        "screen": {
+          "x": 300.6,
+          "y": 600,
+          "w": 60.800000000000004,
+          "h": 60.800000000000004
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-1-line-0",
+        "screen": {
+          "x": 261.27840000000003,
+          "y": 681.8560000000001,
+          "w": 141.0560000000001,
+          "h": 25.54879999999994
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-1-line-1",
+        "screen": {
+          "x": 288.2352,
+          "y": 713.2416000000001,
+          "w": 86.65599999999995,
+          "h": 19.788799999999995
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-1-line-2",
+        "screen": {
+          "x": 259.5376,
+          "y": 745.8560000000001,
+          "w": 142.05439999999996,
+          "h": 25.6
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-icon-2",
+        "screen": {
+          "x": 500.6,
+          "y": 600,
+          "w": 60.800000000000004,
+          "h": 60.800000000000004
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-2-line-0",
+        "screen": {
+          "x": 435.8448000000001,
+          "y": 680.6016,
+          "w": 191.92319999999992,
+          "h": 26.803200000000018
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-2-line-1",
+        "screen": {
+          "x": 447.80000000000007,
+          "y": 713.8560000000001,
+          "w": 166.39999999999984,
+          "h": 25.6
+        },
+        "intersections": []
+      },
+      {
+        "id": "benefit-2-line-2",
+        "screen": {
+          "x": 479.31359999999995,
+          "y": 745.2416000000001,
+          "w": 104.11520000000002,
+          "h": 26.16319999999996
+        },
+        "intersections": []
+      },
+      {
+        "id": "small-company-icon",
+        "screen": {
+          "x": 35,
+          "y": 816,
+          "w": 27.200000000000003,
+          "h": 27.200000000000003
+        },
+        "intersections": []
+      },
+      {
+        "id": "small-company",
+        "screen": {
+          "x": 76.56800000000001,
+          "y": 820.384,
+          "w": 313.05599999999987,
+          "h": 25.152000000000044
+        },
+        "intersections": []
+      },
+      {
+        "id": "website-icon",
+        "screen": {
+          "x": 35,
+          "y": 882.4000000000001,
+          "w": 24.8,
+          "h": 24.8
+        },
+        "intersections": []
+      },
+      {
+        "id": "website",
+        "screen": {
+          "x": 72.65119999999999,
+          "y": 884.8384000000001,
+          "w": 181.91039999999992,
+          "h": 23.475200000000044
+        },
+        "intersections": []
+      },
+      {
+        "id": "cta",
+        "screen": {
+          "x": 36.71120000000002,
+          "y": 940.4888000000001,
+          "w": 234.3104,
+          "h": 26.858399999999893
+        },
+        "intersections": []
+      },
+      {
+        "id": "cta-arrow",
+        "screen": {
+          "x": 299,
+          "y": 937.6,
+          "w": 26.400000000000002,
+          "h": 26.400000000000002
+        },
+        "intersections": []
+      }
+    ]
+  }
+}
