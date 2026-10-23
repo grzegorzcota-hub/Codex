@@ -1,0 +1,84 @@
+{
+  "kind": "manual-approximate-screenshot",
+  "version": 2,
+  "reference": "Dwa zrzuty Instagrama dostarczone przez użytkownika w rozmowie. To przykłady innych reklam, nie podgląd naszych eksportów.",
+  "screen": {
+    "width": 710,
+    "height": 1536,
+    "measurement": "orientacyjny odczyt wizualny"
+  },
+  "asset": {
+    "width": 1080,
+    "height": 1920
+  },
+  "assumedTransform": {
+    "mode": "cover",
+    "scale": 0.8,
+    "cropX": 77,
+    "cropY": 0
+  },
+  "uncertainty": "Nie znamy rozmiarów i kadrowania oryginalnych materiałów w zrzutach. Inny viewport, proporcje telefonu lub stan CTA mogą zmienić mapowanie. To profil roboczy do kontroli kompozycji, nie certyfikat Meta.",
+  "observedUI": [
+    {
+      "id": "status",
+      "x": 0,
+      "y": 0,
+      "w": 710,
+      "h": 75
+    },
+    {
+      "id": "cta",
+      "x": 29,
+      "y": 990,
+      "w": 559,
+      "h": 88
+    },
+    {
+      "id": "heart",
+      "x": 630,
+      "y": 866,
+      "w": 48,
+      "h": 48
+    },
+    {
+      "id": "repeat",
+      "x": 630,
+      "y": 985,
+      "w": 48,
+      "h": 60
+    },
+    {
+      "id": "share",
+      "x": 630,
+      "y": 1125,
+      "w": 48,
+      "h": 60
+    },
+    {
+      "id": "account",
+      "x": 0,
+      "y": 1105,
+      "w": 610,
+      "h": 110
+    },
+    {
+      "id": "caption",
+      "x": 0,
+      "y": 1215,
+      "w": 710,
+      "h": 140
+    },
+    {
+      "id": "navigation",
+      "x": 90,
+      "y": 1395,
+      "w": 530,
+      "h": 110
+    }
+  ],
+  "notes": [
+    "Zrzut 1: kwadrat z czarnymi pasami w pionowym odtwarzaczu; nie użyto go do wyznaczania granic pełnoekranowej grafiki.",
+    "Zrzut 2: pełnoekranowa fotografia, nagłówek w górnej części, CTA około 990 px od góry ekranu, nazwa konta poniżej CTA, prawa kolumna ikon głównie w dolnej połowie.",
+    "Dolny obszar może zawierać fotografię i dekoracje; nie musi być pusty ani biały."
+  ]
+}

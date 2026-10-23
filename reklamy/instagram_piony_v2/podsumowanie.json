@@ -1,0 +1,473 @@
+[
+  {
+    "name": "Opieka medyczna",
+    "width": 1080,
+    "height": 1920,
+    "geometryVerified": true,
+    "checks": [
+      {
+        "id": "bounds",
+        "status": "PASS",
+        "detail": "Całe granice każdego napisu i ikony z zapasem 8 px; osobna kontrola wszystkich umiejscowień."
+      },
+      {
+        "id": "collisions",
+        "status": "PASS",
+        "detail": []
+      },
+      {
+        "id": "text-fit",
+        "status": "PASS",
+        "detail": []
+      },
+      {
+        "id": "glyphs",
+        "status": "PASS",
+        "detail": "Glify Poppins; tekst wyłącznie programowy."
+      },
+      {
+        "id": "font-size",
+        "status": "PASS",
+        "detail": "Wszystkie napisy mają co najmniej 26 px."
+      },
+      {
+        "id": "official-current-meta",
+        "status": "UNVERIFIED",
+        "detail": "Wymaga weryfikacji aktualności. Nie udało się potwierdzić kompletnych oficjalnych parametrów. Dostępny jest projekt roboczy."
+      },
+      {
+        "id": "offer-approval",
+        "status": "PENDING",
+        "detail": "Cena, terminy i warunki pochodzą z materiałów użytkownika; brak nowego potwierdzenia aktualnej oferty."
+      },
+      {
+        "id": "orthography",
+        "status": "PASS",
+        "detail": "Słowa sprawdzone polskim słownikiem; kontrola nie ocenia prawdziwości oferty."
+      },
+      {
+        "id": "png",
+        "status": "PASS",
+        "detail": "Plik odczytany ponownie: 1080×1920, PNG."
+      },
+      {
+        "id": "contrast-pixels",
+        "status": "PASS",
+        "detail": [
+          {
+            "id": "headline-1",
+            "ratio": 14.11,
+            "threshold": 4.5,
+            "pixels": 8362,
+            "pass": true
+          },
+          {
+            "id": "headline-2a",
+            "ratio": 14.23,
+            "threshold": 4.5,
+            "pixels": 6211,
+            "pass": true
+          },
+          {
+            "id": "headline-2b",
+            "ratio": 14.23,
+            "threshold": 4.5,
+            "pixels": 8950,
+            "pass": true
+          },
+          {
+            "id": "headline-3",
+            "ratio": 5.07,
+            "threshold": 4.5,
+            "pixels": 6729,
+            "pass": true
+          },
+          {
+            "id": "subtitle",
+            "ratio": 5.6,
+            "threshold": 4.5,
+            "pixels": 3711,
+            "pass": true
+          },
+          {
+            "id": "price-prefix",
+            "ratio": 8.71,
+            "threshold": 4.5,
+            "pixels": 1059,
+            "pass": true
+          },
+          {
+            "id": "price",
+            "ratio": 8.37,
+            "threshold": 4.5,
+            "pixels": 5815,
+            "pass": true
+          },
+          {
+            "id": "price-unit",
+            "ratio": 7.06,
+            "threshold": 4.5,
+            "pixels": 741,
+            "pass": true
+          },
+          {
+            "id": "benefit-0-line-0",
+            "ratio": 14.62,
+            "threshold": 4.5,
+            "pixels": 432,
+            "pass": true
+          },
+          {
+            "id": "benefit-0-line-1",
+            "ratio": 14.62,
+            "threshold": 4.5,
+            "pixels": 465,
+            "pass": true
+          },
+          {
+            "id": "benefit-0-line-2",
+            "ratio": 5.23,
+            "threshold": 4.5,
+            "pixels": 606,
+            "pass": true
+          },
+          {
+            "id": "benefit-1-line-0",
+            "ratio": 14.62,
+            "threshold": 4.5,
+            "pixels": 525,
+            "pass": true
+          },
+          {
+            "id": "benefit-1-line-1",
+            "ratio": 5.23,
+            "threshold": 4.5,
+            "pixels": 618,
+            "pass": true
+          },
+          {
+            "id": "benefit-2-line-0",
+            "ratio": 14.07,
+            "threshold": 4.5,
+            "pixels": 578,
+            "pass": true
+          },
+          {
+            "id": "benefit-2-line-1",
+            "ratio": 14.1,
+            "threshold": 4.5,
+            "pixels": 188,
+            "pass": true
+          },
+          {
+            "id": "benefit-2-line-2",
+            "ratio": 5.03,
+            "threshold": 4.5,
+            "pixels": 1105,
+            "pass": true
+          },
+          {
+            "id": "website",
+            "ratio": 14.49,
+            "threshold": 4.5,
+            "pixels": 1499,
+            "pass": true
+          },
+          {
+            "id": "legal",
+            "ratio": 6.32,
+            "threshold": 4.5,
+            "pixels": 1659,
+            "pass": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ubezpieczenia grupowe",
+    "width": 1080,
+    "height": 1920,
+    "geometryVerified": true,
+    "checks": [
+      {
+        "id": "bounds",
+        "status": "PASS",
+        "detail": "Całe granice każdego napisu i ikony z zapasem 8 px; osobna kontrola wszystkich umiejscowień."
+      },
+      {
+        "id": "collisions",
+        "status": "PASS",
+        "detail": []
+      },
+      {
+        "id": "text-fit",
+        "status": "PASS",
+        "detail": []
+      },
+      {
+        "id": "glyphs",
+        "status": "PASS",
+        "detail": "Glify Poppins; tekst wyłącznie programowy."
+      },
+      {
+        "id": "font-size",
+        "status": "PASS",
+        "detail": "Wszystkie napisy mają co najmniej 26 px."
+      },
+      {
+        "id": "official-current-meta",
+        "status": "UNVERIFIED",
+        "detail": "Wymaga weryfikacji aktualności. Nie udało się potwierdzić kompletnych oficjalnych parametrów. Dostępny jest projekt roboczy."
+      },
+      {
+        "id": "offer-approval",
+        "status": "PENDING",
+        "detail": "Cena, terminy i warunki pochodzą z materiałów użytkownika; brak nowego potwierdzenia aktualnej oferty."
+      },
+      {
+        "id": "orthography",
+        "status": "PASS",
+        "detail": "Słowa sprawdzone polskim słownikiem; kontrola nie ocenia prawdziwości oferty."
+      },
+      {
+        "id": "png",
+        "status": "PASS",
+        "detail": "Plik odczytany ponownie: 1080×1920, PNG."
+      },
+      {
+        "id": "contrast-pixels",
+        "status": "PASS",
+        "detail": [
+          {
+            "id": "headline-1",
+            "ratio": 10.03,
+            "threshold": 4.5,
+            "pixels": 14286,
+            "pass": true
+          },
+          {
+            "id": "headline-2",
+            "ratio": 5.17,
+            "threshold": 4.5,
+            "pixels": 9006,
+            "pass": true
+          },
+          {
+            "id": "headline-3",
+            "ratio": 5.13,
+            "threshold": 4.5,
+            "pixels": 7600,
+            "pass": true
+          },
+          {
+            "id": "subtitle",
+            "ratio": 5.42,
+            "threshold": 4.5,
+            "pixels": 3713,
+            "pass": true
+          },
+          {
+            "id": "benefit-0-line-0",
+            "ratio": 14.62,
+            "threshold": 4.5,
+            "pixels": 338,
+            "pass": true
+          },
+          {
+            "id": "benefit-0-line-1",
+            "ratio": 14.62,
+            "threshold": 4.5,
+            "pixels": 516,
+            "pass": true
+          },
+          {
+            "id": "benefit-0-line-2",
+            "ratio": 14.62,
+            "threshold": 4.5,
+            "pixels": 460,
+            "pass": true
+          },
+          {
+            "id": "benefit-1-line-0",
+            "ratio": 14.62,
+            "threshold": 4.5,
+            "pixels": 495,
+            "pass": true
+          },
+          {
+            "id": "benefit-1-line-1",
+            "ratio": 14.62,
+            "threshold": 4.5,
+            "pixels": 290,
+            "pass": true
+          },
+          {
+            "id": "benefit-1-line-2",
+            "ratio": 14.62,
+            "threshold": 4.5,
+            "pixels": 482,
+            "pass": true
+          },
+          {
+            "id": "benefit-2-line-0",
+            "ratio": 14,
+            "threshold": 4.5,
+            "pixels": 608,
+            "pass": true
+          },
+          {
+            "id": "benefit-2-line-1",
+            "ratio": 13.91,
+            "threshold": 4.5,
+            "pixels": 570,
+            "pass": true
+          },
+          {
+            "id": "benefit-2-line-2",
+            "ratio": 14,
+            "threshold": 4.5,
+            "pixels": 331,
+            "pass": true
+          },
+          {
+            "id": "small-company",
+            "ratio": 6.37,
+            "threshold": 4.5,
+            "pixels": 2509,
+            "pass": true
+          },
+          {
+            "id": "website",
+            "ratio": 14.49,
+            "threshold": 4.5,
+            "pixels": 1499,
+            "pass": true
+          },
+          {
+            "id": "cta",
+            "ratio": 5.18,
+            "threshold": 4.5,
+            "pixels": 2061,
+            "pass": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dobrego pracownika trudno zastąpić",
+    "width": 1080,
+    "height": 1920,
+    "geometryVerified": true,
+    "checks": [
+      {
+        "id": "bounds",
+        "status": "PASS",
+        "detail": "Całe granice każdego napisu i ikony z zapasem 8 px; osobna kontrola wszystkich umiejscowień."
+      },
+      {
+        "id": "collisions",
+        "status": "PASS",
+        "detail": []
+      },
+      {
+        "id": "text-fit",
+        "status": "PASS",
+        "detail": []
+      },
+      {
+        "id": "glyphs",
+        "status": "PASS",
+        "detail": "Glify Poppins; tekst wyłącznie programowy."
+      },
+      {
+        "id": "font-size",
+        "status": "PASS",
+        "detail": "Wszystkie napisy mają co najmniej 26 px."
+      },
+      {
+        "id": "official-current-meta",
+        "status": "UNVERIFIED",
+        "detail": "Wymaga weryfikacji aktualności. Nie udało się potwierdzić kompletnych oficjalnych parametrów. Dostępny jest projekt roboczy."
+      },
+      {
+        "id": "offer-approval",
+        "status": "PENDING",
+        "detail": "Cena, terminy i warunki pochodzą z materiałów użytkownika; brak nowego potwierdzenia aktualnej oferty."
+      },
+      {
+        "id": "orthography",
+        "status": "PASS",
+        "detail": "Słowa sprawdzone polskim słownikiem; kontrola nie ocenia prawdziwości oferty."
+      },
+      {
+        "id": "png",
+        "status": "PASS",
+        "detail": "Plik odczytany ponownie: 1080×1920, PNG."
+      },
+      {
+        "id": "contrast-pixels",
+        "status": "PASS",
+        "detail": [
+          {
+            "id": "headline-1",
+            "ratio": 17.78,
+            "threshold": 4.5,
+            "pixels": 9922,
+            "pass": true
+          },
+          {
+            "id": "headline-2",
+            "ratio": 17.5,
+            "threshold": 4.5,
+            "pixels": 13041,
+            "pass": true
+          },
+          {
+            "id": "headline-3a",
+            "ratio": 3.83,
+            "threshold": 3,
+            "pixels": 7193,
+            "pass": true
+          },
+          {
+            "id": "headline-3b",
+            "ratio": 5.15,
+            "threshold": 4.5,
+            "pixels": 10103,
+            "pass": true
+          },
+          {
+            "id": "subtitle",
+            "ratio": 14.61,
+            "threshold": 4.5,
+            "pixels": 3922,
+            "pass": true
+          },
+          {
+            "id": "benefit-0",
+            "ratio": 17.53,
+            "threshold": 4.5,
+            "pixels": 3826,
+            "pass": true
+          },
+          {
+            "id": "benefit-1",
+            "ratio": 17.94,
+            "threshold": 4.5,
+            "pixels": 3439,
+            "pass": true
+          },
+          {
+            "id": "cta",
+            "ratio": 3.43,
+            "threshold": 3,
+            "pixels": 3454,
+            "pass": true
+          }
+        ]
+      }
+    ]
+  }
+]
