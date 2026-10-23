@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-23T07:53:11.518Z",
+  "lastVerifiedAt": null,
+  "status": "unavailable",
+  "sources": [
+    {
+      "url": "https://www.facebook.com/business/ads-guide/image/facebook-feed",
+      "checkedAt": "2026-10-23T07:53:11.518Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "da00b1abd4728caef4d175a21a2010a4de1d783e09b00ccc7f490755efe7680e",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": "Review ad specifications for ads on Threads and start connecting your campaigns with an active, growing community. Learn moreMeta Ads Guide Find the latest Meta ad specifications, formats and placement best practices. AboutVideoCarouselCollectionImageImageAboutVideoCarouselCollec"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads-guide/image/instagram-feed",
+      "checkedAt": "2026-10-23T07:53:11.518Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "ed0c6ebb37937159ee9583ccb5b41b75657ca66d81637c869dcd6f35665e85ac",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": "Review ad specifications for ads on Threads and start connecting your campaigns with an active, growing community. Learn moreMeta Ads Guide Find the latest Meta ad specifications, formats and placement best practices. AboutVideoCarouselCollectionImageImageAboutVideoCarouselCollec"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/stories-ads",
+      "checkedAt": "2026-10-23T07:53:11.518Z",
+      "status": "error",
+      "httpStatus": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/stories-ads",
+      "checkedAt": "2026-10-23T07:53:11.518Z",
+      "status": "error",
+      "httpStatus": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/facebook-instagram-reels-ads",
+      "checkedAt": "2026-10-23T07:53:11.518Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "b2558e756a11ec95f016bd89d840befe15b193b97e19ad6ca91ebbe3b0b006d2",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": " "
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/facebook-instagram-reels-ads",
+      "checkedAt": "2026-10-23T07:53:11.518Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "b2558e756a11ec95f016bd89d840befe15b193b97e19ad6ca91ebbe3b0b006d2",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": " "
+    }
+  ],
+  "history": [],
+  "message": "Wymaga weryfikacji aktualności. Nie udało się potwierdzić kompletnych oficjalnych parametrów. Dostępny jest projekt roboczy."
+}

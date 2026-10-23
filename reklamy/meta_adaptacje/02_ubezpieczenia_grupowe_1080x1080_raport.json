@@ -1,0 +1,703 @@
+{
+  "name": "Ubezpieczenia grupowe",
+  "date": "2026-10-23T07:53:15.627Z",
+  "width": 1080,
+  "height": 1080,
+  "geometryVerified": true,
+  "officialMetaCurrentVerified": false,
+  "status": "ADAPTACJA — KONTROLA GEOMETRYCZNA, AKTUALNOŚĆ META NIEPOTWIERDZONA",
+  "safeProfile": {
+    "kind": "conservative-working",
+    "description": "Robocze marginesy 54 px dla obu kanałów Feed; nie jest to oficjalna specyfikacja Meta.",
+    "safe": {
+      "x": 54,
+      "y": 54,
+      "w": 972,
+      "h": 972
+    },
+    "version": 1
+  },
+  "source": {
+    "background": "Tło edytowane z oryginalnej referencji; usunięto napisy. Zdjęcie i dekoracje mogły ulec zmianie w procesie edycji AI.",
+    "logo": "Wycinek oryginalnego logo z materiału użytkownika",
+    "typography": "Poppins, ponowny deterministyczny skład; nie deklarujemy identyczności z oryginalnym krojem."
+  },
+  "checks": [
+    {
+      "id": "bounds",
+      "status": "PASS",
+      "detail": "Całe granice każdego napisu i ikony z zapasem 8 px; osobna kontrola wszystkich umiejscowień."
+    },
+    {
+      "id": "collisions",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "id": "text-fit",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "id": "glyphs",
+      "status": "PASS",
+      "detail": "Glify Poppins; tekst wyłącznie programowy."
+    },
+    {
+      "id": "font-size",
+      "status": "PASS",
+      "detail": "Wszystkie napisy mają co najmniej 26 px."
+    },
+    {
+      "id": "official-current-meta",
+      "status": "UNVERIFIED",
+      "detail": "Wymaga weryfikacji aktualności. Nie udało się potwierdzić kompletnych oficjalnych parametrów. Dostępny jest projekt roboczy."
+    },
+    {
+      "id": "offer-approval",
+      "status": "PENDING",
+      "detail": "Cena, terminy i warunki pochodzą z materiałów użytkownika; brak nowego potwierdzenia aktualnej oferty."
+    },
+    {
+      "id": "orthography",
+      "status": "PASS",
+      "detail": "Słowa sprawdzone polskim słownikiem; kontrola nie ocenia prawdziwości oferty."
+    },
+    {
+      "id": "png",
+      "status": "PASS",
+      "detail": "Plik odczytany ponownie: 1080×1080, PNG."
+    },
+    {
+      "id": "contrast-pixels",
+      "status": "PASS",
+      "detail": [
+        {
+          "id": "headline-1",
+          "ratio": 12.99,
+          "threshold": 4.5,
+          "pixels": 14286,
+          "pass": true
+        },
+        {
+          "id": "headline-2",
+          "ratio": 5.17,
+          "threshold": 4.5,
+          "pixels": 9006,
+          "pass": true
+        },
+        {
+          "id": "headline-3",
+          "ratio": 5.18,
+          "threshold": 4.5,
+          "pixels": 7600,
+          "pass": true
+        },
+        {
+          "id": "subtitle",
+          "ratio": 5.96,
+          "threshold": 4.5,
+          "pixels": 3713,
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-0",
+          "ratio": 14.62,
+          "threshold": 4.5,
+          "pixels": 391,
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-1",
+          "ratio": 14.62,
+          "threshold": 4.5,
+          "pixels": 680,
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-2",
+          "ratio": 14.62,
+          "threshold": 4.5,
+          "pixels": 596,
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-0",
+          "ratio": 14.49,
+          "threshold": 4.5,
+          "pixels": 625,
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-1",
+          "ratio": 14.49,
+          "threshold": 4.5,
+          "pixels": 373,
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-2",
+          "ratio": 14.49,
+          "threshold": 4.5,
+          "pixels": 643,
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-0",
+          "ratio": 14.02,
+          "threshold": 4.5,
+          "pixels": 785,
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-1",
+          "ratio": 13.94,
+          "threshold": 4.5,
+          "pixels": 669,
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-2",
+          "ratio": 13.84,
+          "threshold": 4.5,
+          "pixels": 391,
+          "pass": true
+        },
+        {
+          "id": "small-company",
+          "ratio": 6.43,
+          "threshold": 4.5,
+          "pixels": 2510,
+          "pass": true
+        },
+        {
+          "id": "website",
+          "ratio": 14.62,
+          "threshold": 4.5,
+          "pixels": 1499,
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "profileChecks": [
+    {
+      "placement": "Facebook Feed",
+      "safe": {
+        "x": 54,
+        "y": 54,
+        "w": 972,
+        "h": 972
+      },
+      "blocked": [],
+      "objects": [
+        {
+          "id": "headline-1",
+          "pass": true
+        },
+        {
+          "id": "headline-2",
+          "pass": true
+        },
+        {
+          "id": "headline-3",
+          "pass": true
+        },
+        {
+          "id": "subtitle",
+          "pass": true
+        },
+        {
+          "id": "benefit-icon-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-2",
+          "pass": true
+        },
+        {
+          "id": "benefit-icon-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-2",
+          "pass": true
+        },
+        {
+          "id": "benefit-icon-2",
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-2",
+          "pass": true
+        },
+        {
+          "id": "small-company-icon",
+          "pass": true
+        },
+        {
+          "id": "small-company",
+          "pass": true
+        },
+        {
+          "id": "website-icon",
+          "pass": true
+        },
+        {
+          "id": "website",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "placement": "Instagram Feed",
+      "safe": {
+        "x": 54,
+        "y": 54,
+        "w": 972,
+        "h": 972
+      },
+      "blocked": [],
+      "objects": [
+        {
+          "id": "headline-1",
+          "pass": true
+        },
+        {
+          "id": "headline-2",
+          "pass": true
+        },
+        {
+          "id": "headline-3",
+          "pass": true
+        },
+        {
+          "id": "subtitle",
+          "pass": true
+        },
+        {
+          "id": "benefit-icon-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-0-line-2",
+          "pass": true
+        },
+        {
+          "id": "benefit-icon-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-1-line-2",
+          "pass": true
+        },
+        {
+          "id": "benefit-icon-2",
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-0",
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-1",
+          "pass": true
+        },
+        {
+          "id": "benefit-2-line-2",
+          "pass": true
+        },
+        {
+          "id": "small-company-icon",
+          "pass": true
+        },
+        {
+          "id": "small-company",
+          "pass": true
+        },
+        {
+          "id": "website-icon",
+          "pass": true
+        },
+        {
+          "id": "website",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "logo",
+      "kind": "logo",
+      "important": false,
+      "x": 64,
+      "y": 65,
+      "w": 340,
+      "h": 114.6067415730337
+    },
+    {
+      "id": "headline-1",
+      "kind": "text",
+      "important": true,
+      "x": 67.816,
+      "y": 218.32,
+      "w": 533.8080000000002,
+      "h": 77.976,
+      "text": "Ubezpieczenia",
+      "fontSize": 72,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "headline-2",
+      "kind": "text",
+      "important": true,
+      "x": 65.728,
+      "y": 321.104,
+      "w": 329.90400000000005,
+      "h": 60.76800000000003,
+      "text": "grupowe",
+      "fontSize": 72,
+      "color": "#007b64",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "headline-3",
+      "kind": "text",
+      "important": true,
+      "x": 65.728,
+      "y": 388.32,
+      "w": 286.4880000000001,
+      "h": 59.184000000000026,
+      "text": "dla firm",
+      "fontSize": 72,
+      "color": "#007b64",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "subtitle",
+      "kind": "text",
+      "important": true,
+      "x": 64.408,
+      "y": 488.024,
+      "w": 452.1999999999998,
+      "h": 77.81600000000003,
+      "text": "Prosty benefit, realne\nwsparcie dla pracowników",
+      "fontSize": 34,
+      "color": "#476274",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-icon-0",
+      "kind": "icon",
+      "important": true,
+      "x": 161,
+      "y": 690,
+      "w": 88,
+      "h": 88
+    },
+    {
+      "id": "benefit-0-line-0",
+      "kind": "text",
+      "important": true,
+      "x": 145.13600000000002,
+      "y": 803.28,
+      "w": 118.77600000000001,
+      "h": 20.97199999999998,
+      "text": "Ochrona",
+      "fontSize": 28,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-0-line-1",
+      "kind": "text",
+      "important": true,
+      "x": 114.01400000000002,
+      "y": 836.908,
+      "w": 183.764,
+      "h": 29.371999999999957,
+      "text": "pracowników",
+      "fontSize": 28,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-0-line-2",
+      "kind": "text",
+      "important": true,
+      "x": 123.14199999999998,
+      "y": 872.692,
+      "w": 163.43599999999998,
+      "h": 21.559999999999945,
+      "text": "i ich bliskich",
+      "fontSize": 28,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-icon-1",
+      "kind": "icon",
+      "important": true,
+      "x": 501,
+      "y": 690,
+      "w": 88,
+      "h": 88
+    },
+    {
+      "id": "benefit-1-line-0",
+      "kind": "text",
+      "important": true,
+      "x": 468.742,
+      "y": 803.28,
+      "w": 154.27999999999992,
+      "h": 27.944000000000074,
+      "text": "Dodatkowy",
+      "fontSize": 28,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-1-line-1",
+      "kind": "text",
+      "important": true,
+      "x": 498.226,
+      "y": 837.608,
+      "w": 94.78000000000009,
+      "h": 21.644000000000005,
+      "text": "benefit",
+      "fontSize": 28,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-1-line-2",
+      "kind": "text",
+      "important": true,
+      "x": 466.838,
+      "y": 873.28,
+      "w": 155.372,
+      "h": 28,
+      "text": "dla zespołu",
+      "fontSize": 28,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-icon-2",
+      "kind": "icon",
+      "important": true,
+      "x": 841,
+      "y": 690,
+      "w": 88,
+      "h": 88
+    },
+    {
+      "id": "benefit-2-line-0",
+      "kind": "text",
+      "important": true,
+      "x": 780.924,
+      "y": 801.908,
+      "w": 209.91599999999994,
+      "h": 29.31600000000003,
+      "text": "Różne warianty",
+      "fontSize": 28,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-2-line-1",
+      "kind": "text",
+      "important": true,
+      "x": 794,
+      "y": 838.28,
+      "w": 181.9999999999999,
+      "h": 28,
+      "text": "dopasowane",
+      "fontSize": 28,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "benefit-2-line-2",
+      "kind": "text",
+      "important": true,
+      "x": 828.468,
+      "y": 872.608,
+      "w": 113.87599999999998,
+      "h": 28.6160000000001,
+      "text": "do firmy",
+      "fontSize": 28,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "small-company-icon",
+      "kind": "icon",
+      "important": true,
+      "x": 64,
+      "y": 930,
+      "w": 34,
+      "h": 34
+    },
+    {
+      "id": "small-company",
+      "kind": "text",
+      "important": true,
+      "x": 115.96,
+      "y": 935.48,
+      "w": 391.3199999999999,
+      "h": 31.43999999999994,
+      "text": "Także dla mniejszych firm",
+      "fontSize": 30,
+      "color": "#476274",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    },
+    {
+      "id": "website-icon",
+      "kind": "icon",
+      "important": true,
+      "x": 64,
+      "y": 983,
+      "w": 31,
+      "h": 31
+    },
+    {
+      "id": "website",
+      "kind": "text",
+      "important": true,
+      "x": 111.064,
+      "y": 986.048,
+      "w": 227.3879999999999,
+      "h": 29.34400000000005,
+      "text": "zespolzyskuje.pl",
+      "fontSize": 28,
+      "color": "#062b44",
+      "overflow": false,
+      "glyphs": true,
+      "contrastThreshold": 4.5
+    }
+  ],
+  "officialSources": [
+    {
+      "url": "https://www.facebook.com/business/ads-guide/image/facebook-feed",
+      "checkedAt": "2026-10-23T07:53:11.518Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "da00b1abd4728caef4d175a21a2010a4de1d783e09b00ccc7f490755efe7680e",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": "Review ad specifications for ads on Threads and start connecting your campaigns with an active, growing community. Learn moreMeta Ads Guide Find the latest Meta ad specifications, formats and placement best practices. AboutVideoCarouselCollectionImageImageAboutVideoCarouselCollec"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads-guide/image/instagram-feed",
+      "checkedAt": "2026-10-23T07:53:11.518Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "ed0c6ebb37937159ee9583ccb5b41b75657ca66d81637c869dcd6f35665e85ac",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": "Review ad specifications for ads on Threads and start connecting your campaigns with an active, growing community. Learn moreMeta Ads Guide Find the latest Meta ad specifications, formats and placement best practices. AboutVideoCarouselCollectionImageImageAboutVideoCarouselCollec"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/stories-ads",
+      "checkedAt": "2026-10-23T07:53:11.518Z",
+      "status": "error",
+      "httpStatus": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/stories-ads",
+      "checkedAt": "2026-10-23T07:53:11.518Z",
+      "status": "error",
+      "httpStatus": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/facebook-instagram-reels-ads",
+      "checkedAt": "2026-10-23T07:53:11.518Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "b2558e756a11ec95f016bd89d840befe15b193b97e19ad6ca91ebbe3b0b006d2",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": " "
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/facebook-instagram-reels-ads",
+      "checkedAt": "2026-10-23T07:53:11.518Z",
+      "status": "unreadable",
+      "httpStatus": 200,
+      "hash": "b2558e756a11ec95f016bd89d840befe15b193b97e19ad6ca91ebbe3b0b006d2",
+      "error": "Dokument nie zawiera kompletu jednoznacznych parametrów dla obrazu w tym umiejscowieniu. Wymagana kontrola źródła.",
+      "excerpt": " "
+    }
+  ],
+  "sha256": "c92247b06e29fcb0775aa346758bfe1ebeae0f5e1f3d93bd898c19a54503d1a8"
+}
