@@ -1,6 +1,6 @@
 {
   "name": "Opieka medyczna",
-  "date": "2026-10-23T08:40:39.987Z",
+  "date": "2026-10-23T09:24:18.448Z",
   "width": 1080,
   "height": 1920,
   "geometryVerified": true,
@@ -703,7 +703,7 @@
       "excerpt": " "
     }
   ],
-  "sha256": "f626125af23cadd9d4645b6b2fd598efadfd0ff081cd2cc5cc5b83f3da848a0f",
+  "sha256": "2009dd0c4ce0d32299232037778a2dd763a2c91aee8d0d928c8477ab6a8048d1",
   "manualScreenshotCalibration": {
     "version": 2,
     "assumption": {
